@@ -1,0 +1,38 @@
+.experience-container {
+  padding: 3rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.experience-subtitle {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.skill-icon {
+  font-size: 1.5rem;
+}
+
+.skill-details h4 {
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  margin-bottom: 0.2rem;
+}
+
+.skill-details p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
