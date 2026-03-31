@@ -7,6 +7,7 @@
   font-size: 1.1rem;
   color: var(--text-secondary);
   line-height: 1.8;
+  text-align: justify;
 }
 
 .about-cards-wrapper {

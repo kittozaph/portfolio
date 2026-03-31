@@ -40,6 +40,7 @@
   color: #cbd5e1;
   max-width: 500px;
   margin-bottom: 2.5rem;
+  text-align: justify;
 }
 
 .btn-group {
@@ -133,6 +134,15 @@
   
   .hero-description {
     margin: 0 auto 2.5rem;
+    text-align: justify;
+  }
+
+  .btn-group {
+    justify-content: center;
+  }
+
+  .socials {
+    justify-content: center;
   }
 
   .hero-image-container {
