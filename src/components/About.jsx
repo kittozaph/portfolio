@@ -29,12 +29,22 @@ const About = () => {
 
           <div className="about-cards-wrapper grid animate-fade-in-up delay-200">
             <div className="about-card glass-panel">
-              <div className="card-icon">💼</div>
+              <div className="card-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                </svg>
+              </div>
               <h3>Experience</h3>
               <p>1+ years <br />Software Development</p>
             </div>
             <div className="about-card glass-panel">
-              <div className="card-icon">🎓</div>
+              <div className="card-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                  <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                </svg>
+              </div>
               <h3>Education</h3>
               <p>B.Sc. Chemistry with Management<br />M.Sc. Information Technology (Ongoing)</p>
             </div>
