@@ -16,15 +16,15 @@ const Navbar = () => {
   return (
     <>
       {/* Backdrop overlay */}
-      <div 
-        className={`menu-backdrop ${menuOpen ? 'open' : ''}`} 
-        onClick={() => setMenuOpen(false)} 
+      <div
+        className={`menu-backdrop ${menuOpen ? 'open' : ''}`}
+        onClick={() => setMenuOpen(false)}
       />
 
       <nav className={`navbar ${scrolled ? 'nav-scrolled' : ''}`}>
         <div className="container nav-container">
-          <a href="#" className="nav-logo">Affaiq Aini ✨</a>
-          
+          <a href="#" className="nav-logo">Affaiq Aini</a>
+
           {/* Desktop Menu */}
           <ul className="nav-links">
             <li><a href="#about">About</a></li>
