@@ -14,7 +14,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`navbar ${scrolled ? 'nav-scrolled glass-panel' : ''}`}>
+    <nav className={`navbar ${scrolled ? 'nav-scrolled' : ''}`}>
       <div className="container nav-container">
         <a href="#" className="nav-logo">Affaiq Aini</a>
         
@@ -34,7 +34,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile menu */}
-        <div className={`mobile-menu glass-panel ${menuOpen ? 'open' : ''}`}>
+        <div className={`mobile-menu ${menuOpen ? 'open' : ''}`}>
           <ul>
             <li><a href="#about" onClick={() => setMenuOpen(false)}>About</a></li>
             <li><a href="#experience" onClick={() => setMenuOpen(false)}>Experience</a></li>

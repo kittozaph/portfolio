@@ -10,10 +10,10 @@
 
 .nav-scrolled {
   padding: 1rem 0;
-  border-radius: 0 0 20px 20px;
-  border-top: none;
-  border-left: none;
-  border-right: none;
+  background: rgba(13, 9, 20, 0.5);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--glass-border);
 }
 
 .nav-container {
@@ -100,6 +100,11 @@
   visibility: hidden;
   transform: translateY(-10px);
   transition: all 0.3s ease;
+  background: rgba(13, 9, 20, 0.5);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 16px;
+  border: 1px solid var(--glass-border);
 }
 
 .mobile-menu.open {
