@@ -8,13 +8,13 @@ const Hero = () => {
         <div className="hero-text animate-fade-in-up">
           <p className="greeting gradient-text">Hello, I'm</p>
           <h1 className="hero-title">Affaiq Aini</h1>
-          <h2 className="hero-subtitle">Software Developer</h2>
+          <h2 className="hero-subtitle">System Engineer</h2>
           <p className="hero-description delay-100">
-            Passionate about building modern web applications, exploring Machine Learning, and crafting scalable robust solutions.
+            Passionate about building modern web applications, integrating IoT technologies, and crafting scalable robust solutions with Machine Learning.
           </p>
           
           <div className="btn-group delay-200">
-            <button className="btn btn-primary" onClick={() => window.open('/assets/resume_affaiq_052024.pdf')}>
+            <button className="btn btn-primary" onClick={() => window.open('/assets/resume_affaiq-1.pdf')}>
               Download CV
             </button>
             <button className="btn btn-secondary" onClick={() => window.location.href='#contact'}>
@@ -23,7 +23,7 @@ const Hero = () => {
           </div>
 
           <div className="socials delay-300">
-            <a href="https://www.linkedin.com/in/affaiq-aini" target="_blank" rel="noreferrer" className="social-icon">
+            <a href="https://www.linkedin.com/in/affaiq-aini" target="_blank" rel="noreferrer" className="social-icon linkedin-icon">
               <img src="/assets/linkedin.png" alt="LinkedIn" />
             </a>
             <a href="https://github.com/kittozaph" target="_blank" rel="noreferrer" className="social-icon github-icon">

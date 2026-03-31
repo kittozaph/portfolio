@@ -1,0 +1,78 @@
+ 
+Mohammad Affaiq Aini 
+ 
+ 
+ 
+ 
+Unicentral  • Kota Samarahan, 94300 • affaiqaini@gmail.com • +60135723468 
+ 
+Education 
+Universiti Teknologi MARA  
+Msc, Master’s in Science Information Technology.  2026  
+Thesis: Image Detection for Monitoring Soft Shell Crab Using Internet of Things 
+Publication(s): Image Detection Using YOLOv7 Algorithm to Detect the Moulted Crabs  
+(e-proceedings book ICoBTA-IR4.0), Image Enhancement for Detection of Underwater  
+Moulted Crabs in Greenhouse Soft-Shell Crab Farming Using Deep Learning,  
+https://doi.org/10.1016/j.atech.2025.101223 (Q1 Journal - Smart Agricultural Technology). 
+ 
+Bachelor’s Degree (Hons.) Chemistry with Management.  2022  
+ 
+Diploma in Industrial Chemistry  2019  
+ 
+ 
+Experiences 
+  
+Arc Technologies Sdn Bhd                                                                                                                                             Kuching, Sarawak 
+  System Engineer                                                                                                                                                   January 2025 – Present 
+• Design and document system architecture for IoT-based solutions and operational systems.  
+• Prepare Product Requirement Documents (PRD) and technical documentation to support system implementation 
+and governance.  
+• Deploy and manage virtual machine environments for system testing, simulation, and operational support.  
+• Install and configure Operational Technology (OT) simulators for industrial system testing and validation. 
+• Conduct site visits to support system deployment, troubleshooting, and technical assessments. 
+• Coordinate with clients and stakeholders to gather requirements and ensure system implementation meets 
+operational needs. 
+• Support system integration and monitor system performance to ensure reliability and compliance with project 
+requirements. 
+ 
+Karuna Sarawak Sdn Bhd                                                                                                                                              Kuching, Sarawak 
+  System Programmer                                                                                                                                   June 2024 – December 2024 
+• Developed and maintained web-based systems using Laravel (PHP). 
+• Designed database structures and Entity Relationship Diagrams (ERD) to support system development and data 
+management. 
+• Customized and implemented Odoo ERP modules to improve business workflow automation. 
+• Developed backend scripts using Python for system automation and data processing. 
+• Conducted system testing, debugging, and performance optimization to ensure application stability. 
+ 
+UiTM Sarawak                                                                                                                                                 Kota Samarahan, Sarawak 
+  Research Assistant                                                                                                                                     October 2022 – March 2024 
+• Specialize in IoT applications for object detection and image recognition in soft-shell crab and crayfish farming.  
+• Optimizing detection methods, creating image recognition models, collaborating with IoT technologies for 
+seamless integration, and conducting data analysis.  
+• Discussing with the farm manager to provide needed assistance for the project.  
+• Became an Exhibitor for IoT Monitoring System Project at WCiT 2023  
+• Became a Presenter for IoT Monitoring System Project at iCOBTA 2023 
+ 
+ 
+Kompande Group                                                                                                                                           Kota Samarahan, Sarawak 
+IT Support/Technician (Part time during semester break)                         2021 – 2022 
+• Developed crucial skills for meticulous fiber-optic network installation and maintenance. 
+• Troubleshooting and diagnosing issues using testing equipment. 
+• Interacting with clients whenever they need services. 
+• Been outstation outside Kuching (Miri, Sibu, Lundu, Bau, Sematan) for technical maintenance. 
+ 
+ 
+Certifications 
+• AWS Certified Cloud Practitioner – Amazon Web Services 
+• Drone Pilot Certification (Aerial Photography) 
+ 
+ 
+Skills & Interests 
+Programming Language(s): Python, HTML, CSS, JavaScript, PHP, MySQL  
+Machine Learning: OpenCV, Tensorflow, Pytorch  
+Framework: Laravel, Flask, ReactJS, Typescript 
+Language: Bahasa Malaysia, English  
+Interests: Internet of Things (IoT) technologies, System design and technology integration, Data analysis and problem 
+solving, Client engagement and technology consulting
+ 
+

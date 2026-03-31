@@ -26,6 +26,7 @@
 .contact-icon-img {
   width: 30px;
   height: 30px;
+  filter: invert(1);
 }
 
 .contact-link {

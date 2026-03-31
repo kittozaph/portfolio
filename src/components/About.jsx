@@ -14,16 +14,14 @@ const About = () => {
           <div className="about-text-wrapper animate-fade-in-up delay-100">
             <p className="about-text">
               With a strong foundation in Information Technology and a passion for innovation, 
-              I bring almost 2 years of experience to the table. My technical toolkit includes proficiency in Python, 
-              which I've leveraged to create robust solutions especially on Machine Learning. 
+              I bring over 2.5 years of experience as a System Engineer and Developer. My technical toolkit includes proficiency in Python, 
+              which I've leveraged to create robust Machine Learning and IoT-based solutions. 
               <br /><br />
-              Additionally, I have experience with web development, having worked with HTML, CSS, 
-              and delved into JavaScript to enhance user interfaces. 
-              PHP with Laravel Framework and MySQL is another valuable skill I've acquired, 
-              enabling me to work with databases effectively.
+              Additionally, I have extensive experience with full-stack web development, having built dynamic systems utilizing HTML, CSS, 
+              JavaScript (ReactJS, TypeScript), and PHP with the Laravel Framework. I'm also well-versed in database management using MySQL.
               <br /><br />
-              Also I am proficient in using Git for version control. 
-              There are lot to learn in this field but I am more than willing to learn and grow.
+              Whether designing system architectures, deploying virtual environments, developing computer vision models, or troubleshooting fiber-optic networks, 
+              I am dedicated to delivering comprehensive and reliable technical results.
             </p>
           </div>
 
@@ -36,7 +34,7 @@ const About = () => {
                 </svg>
               </div>
               <h3>Experience</h3>
-              <p>1+ years <br />Software Development</p>
+              <p>2.5+ years <br />System Engineering</p>
             </div>
             <div className="about-card glass-panel">
               <div className="card-icon">
