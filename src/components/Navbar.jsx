@@ -23,7 +23,7 @@ const Navbar = () => {
 
       <nav className={`navbar ${scrolled ? 'nav-scrolled' : ''}`}>
         <div className="container nav-container">
-          <a href="#" className="nav-logo">Affaiq Aini</a>
+          <a href="#" className="nav-logo">Affaiq Aini ✨</a>
           
           {/* Desktop Menu */}
           <ul className="nav-links">
