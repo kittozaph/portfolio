@@ -89,28 +89,37 @@
   transform: translateY(-8px) rotate(-45deg);
 }
 
-/* Mobile Menu */
+/* Mobile Menu – Liquid Glass */
 .mobile-menu {
   position: absolute;
   top: 80px;
   right: 20px;
-  padding: 2rem;
-  width: 200px;
+  padding: 2rem 2.5rem;
+  width: 220px;
   opacity: 0;
   visibility: hidden;
-  transform: translateY(-10px);
-  transition: all 0.3s ease;
-  background: rgba(13, 9, 20, 0.5);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border-radius: 16px;
-  border: 1px solid var(--glass-border);
+  transform: translateY(-10px) scale(0.97);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.08) 0%,
+    rgba(255, 255, 255, 0.03) 50%,
+    rgba(168, 85, 247, 0.06) 100%
+  );
+  backdrop-filter: blur(24px) saturate(1.4);
+  -webkit-backdrop-filter: blur(24px) saturate(1.4);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.02);
 }
 
 .mobile-menu.open {
   opacity: 1;
   visibility: visible;
-  transform: translateY(0);
+  transform: translateY(0) scale(1);
 }
 
 .mobile-menu ul {
@@ -122,7 +131,32 @@
 
 .mobile-menu a {
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
+  color: var(--text-secondary);
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.mobile-menu a:hover {
+  color: var(--text-primary);
+  text-shadow: 0 0 12px rgba(168, 85, 247, 0.4);
+}
+
+/* Backdrop Overlay */
+.menu-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.35s ease;
+}
+
+.menu-backdrop.open {
+  opacity: 1;
+  visibility: visible;
 }
 
 @media (max-width: 768px) {

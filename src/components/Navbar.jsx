@@ -14,36 +14,44 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`navbar ${scrolled ? 'nav-scrolled' : ''}`}>
-      <div className="container nav-container">
-        <a href="#" className="nav-logo">Affaiq Aini</a>
-        
-        {/* Desktop Menu */}
-        <ul className="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+    <>
+      {/* Backdrop overlay */}
+      <div 
+        className={`menu-backdrop ${menuOpen ? 'open' : ''}`} 
+        onClick={() => setMenuOpen(false)} 
+      />
 
-        {/* Hamburger */}
-        <div className={`hamburger ${menuOpen ? 'open' : ''}`} onClick={() => setMenuOpen(!menuOpen)}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-
-        {/* Mobile menu */}
-        <div className={`mobile-menu ${menuOpen ? 'open' : ''}`}>
-          <ul>
-            <li><a href="#about" onClick={() => setMenuOpen(false)}>About</a></li>
-            <li><a href="#experience" onClick={() => setMenuOpen(false)}>Experience</a></li>
-            <li><a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a></li>
-            <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
+      <nav className={`navbar ${scrolled ? 'nav-scrolled' : ''}`}>
+        <div className="container nav-container">
+          <a href="#" className="nav-logo">Affaiq Aini</a>
+          
+          {/* Desktop Menu */}
+          <ul className="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
+
+          {/* Hamburger */}
+          <div className={`hamburger ${menuOpen ? 'open' : ''}`} onClick={() => setMenuOpen(!menuOpen)}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          {/* Mobile menu */}
+          <div className={`mobile-menu ${menuOpen ? 'open' : ''}`}>
+            <ul>
+              <li><a href="#about" onClick={() => setMenuOpen(false)}>About</a></li>
+              <li><a href="#experience" onClick={() => setMenuOpen(false)}>Experience</a></li>
+              <li><a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a></li>
+              <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </>
   );
 };
 
