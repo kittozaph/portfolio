@@ -16,7 +16,7 @@ const Experience = () => {
       desc: 'Developed web-based systems using Laravel (PHP). Customized Odoo ERP workflows and built Python backend automation scripts.'
     },
     {
-      title: 'Research Assistant',
+      title: 'Research Assistant (IT)',
       company: 'UiTM Sarawak',
       duration: 'October 2022 - March 2024',
       desc: 'Specialized in IoT applications for soft-shell crab farming. Optimized deep learning recognition models and handled hardware integration.'
@@ -47,7 +47,7 @@ const Experience = () => {
           <p>Explore My</p>
           <h2>Experience</h2>
         </div>
-        
+
         <div className="experience-wrapper grid grid-2">
           {/* Work Experience */}
           <div className="timeline-container animate-fade-in-up delay-100">
@@ -69,22 +69,22 @@ const Experience = () => {
 
           {/* Toolkit */}
           <div className="toolkit-container animate-fade-in-up delay-200">
-             <h3 className="section-subtitle gradient-text">Toolkit & Skills</h3>
-             <div className="skills-grid">
-               {tools.map((skill, index) => (
-                 <div key={index} className="skill-item glass-panel">
-                 <div className="skill-icon">
+            <h3 className="section-subtitle gradient-text">Toolkit & Skills</h3>
+            <div className="skills-grid">
+              {tools.map((skill, index) => (
+                <div key={index} className="skill-item glass-panel">
+                  <div className="skill-icon">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
-                      <polyline points="20 6 9 17 4 12"/>
+                      <polyline points="20 6 9 17 4 12" />
                     </svg>
                   </div>
                   <div className="skill-details">
                     <h4>{skill.name}</h4>
                     <p>{skill.category}</p>
                   </div>
-                 </div>
-               ))}
-             </div>
+                </div>
+              ))}
+            </div>
           </div>
 
         </div>

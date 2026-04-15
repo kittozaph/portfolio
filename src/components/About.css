@@ -41,6 +41,16 @@
   font-size: 0.95rem;
 }
 
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.education-list p {
+  margin: 0;
+}
+
 @media (max-width: 768px) {
   .about-content {
     grid-template-columns: 1fr;

@@ -44,7 +44,11 @@ const About = () => {
                 </svg>
               </div>
               <h3>Education</h3>
-              <p>B.Sc. Chemistry with Management<br />M.Sc. Information Technology (Ongoing)</p>
+              <div className="education-list">
+                <p>• M.Sc Information Technology</p>
+                <p>• B.Sc. (Hons.) Chemistry with Management</p>
+                <p>• Diploma in Industrial Chemistry</p>
+              </div>
             </div>
           </div>
         </div>
