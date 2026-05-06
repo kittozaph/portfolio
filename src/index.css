@@ -1,13 +1,13 @@
 :root {
-  --bg-color: #0d0914;
-  --bg-gradient: radial-gradient(circle at top right, #1a103c, #0d0914 60%);
+  --bg-color: #121212;
+  --bg-gradient: radial-gradient(circle at top right, #2c2c2c, #121212 60%);
   --text-primary: #f8fafc;
   --text-secondary: #94a3b8;
-  --accent-gradient: linear-gradient(135deg, #a855f7, #ec4899);
-  --accent-blue: linear-gradient(135deg, #3b82f6, #06b6d4);
+  --accent-gradient: linear-gradient(135deg, #3b82f6, #E63946);
+  --accent-blue: linear-gradient(135deg, #E63946, #9b2226);
   --glass-bg: rgba(255, 255, 255, 0.03);
   --glass-border: rgba(255, 255, 255, 0.08);
-  
+
   --font-heading: 'Outfit', sans-serif;
   --font-body: 'Inter', sans-serif;
 }
@@ -20,7 +20,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 80px; 
+  scroll-padding-top: 80px;
   overflow-x: hidden;
   width: 100%;
 }
@@ -41,7 +41,12 @@ body {
   width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-heading);
   font-weight: 800;
   line-height: 1.1;
@@ -120,12 +125,12 @@ ul {
 .btn-primary {
   background: var(--accent-gradient);
   color: white;
-  box-shadow: 0 4px 15px rgba(236, 72, 153, 0.3);
+  box-shadow: 0 4px 15px rgba(230, 57, 70, 0.3);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(236, 72, 153, 0.5);
+  box-shadow: 0 8px 25px rgba(230, 57, 70, 0.5);
 }
 
 .btn-secondary {
@@ -146,6 +151,7 @@ ul {
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -156,9 +162,17 @@ ul {
   animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
-.delay-100 { animation-delay: 100ms; }
-.delay-200 { animation-delay: 200ms; }
-.delay-300 { animation-delay: 300ms; }
+.delay-100 {
+  animation-delay: 100ms;
+}
+
+.delay-200 {
+  animation-delay: 200ms;
+}
+
+.delay-300 {
+  animation-delay: 300ms;
+}
 
 /* Responsive Grid Base */
 .grid {
@@ -167,7 +181,15 @@ ul {
 }
 
 @media (min-width: 768px) {
-  .grid-2 { grid-template-columns: repeat(2, 1fr); }
-  .grid-3 { grid-template-columns: repeat(3, 1fr); }
-  .grid-4 { grid-template-columns: repeat(4, 1fr); }
+  .grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

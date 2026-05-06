@@ -103,7 +103,7 @@
   background: linear-gradient(135deg,
       rgba(255, 255, 255, 0.18) 0%,
       rgba(255, 255, 255, 0.10) 50%,
-      rgba(168, 85, 247, 0.12) 100%);
+      rgba(230, 57, 70, 0.12) 100%);
   backdrop-filter: blur(28px) saturate(1.6);
   -webkit-backdrop-filter: blur(28px) saturate(1.6);
   border-radius: 20px;
@@ -136,7 +136,7 @@
 
 .mobile-menu a:hover {
   color: var(--text-primary);
-  text-shadow: 0 0 12px rgba(168, 85, 247, 0.4);
+  text-shadow: 0 0 12px rgba(230, 57, 70, 0.4);
 }
 
 /* Backdrop Overlay */

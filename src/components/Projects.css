@@ -20,7 +20,7 @@
 }
 
 .project-icon-wrapper {
-  background: rgba(255,255,255,0.03);
+  background: rgba(255, 255, 255, 0.03);
   width: 60px;
   height: 60px;
   border-radius: 15px;
@@ -29,8 +29,8 @@
   justify-content: center;
   margin-bottom: 1.5rem;
   color: #a855f7;
-  border: 1px solid rgba(255,255,255,0.05);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .project-card h3 {

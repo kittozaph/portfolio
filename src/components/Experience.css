@@ -65,7 +65,8 @@
   display: block;
   font-size: 1rem;
   font-weight: 500;
-  color: #a855f7; /* Matching the accent gradient */
+  color: #3b82f6;
+  /* Matching the accent gradient */
   margin-bottom: 0.25rem;
 }
 
@@ -112,7 +113,8 @@
 
 .skill-icon {
   font-size: 1.2rem;
-  color: #ec4899; /* Pink to match gradient */
+  color: #E63946;
+  /* Pink to match gradient */
 }
 
 .skill-details h4 {
